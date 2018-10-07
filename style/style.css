@@ -153,15 +153,11 @@ a{
 
 .caption-l{
     position: absolute;
-  width: 80%;
-  height: 80%;
+    width: 80%;
+    height: 80%;
     background-color: transparent;
     border: 1px solid white;
-    opacity:0;
-  
-    
-    
-    
+    opacity:0; 
 }
 
 .caption-m{
@@ -174,15 +170,14 @@ a{
     z-index: 99;}
 
 .caption-w{
-        position: absolute;
-        width: 80%;
-        height: 80%;
-        background-color: transparent;
-        border: 1px solid white;
-        opacity:0;
-      
-        
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    background-color: transparent;
+    border: 1px solid white;
+    opacity:0;   
     }
+
     .caption-t{
         position: absolute;
         width: 80%;
@@ -192,6 +187,7 @@ a{
         opacity:0;
         z-index: 99;
     }
+
     .caption-s{
         position: absolute;
         width: 80%;
@@ -212,7 +208,6 @@ a{
     text-align: center;
     margin-top: 7%;
     text-decoration: none;
-
 }
 
 
@@ -225,7 +220,6 @@ a{
     line-height: 20px;
     padding:5px;
     text-decoration: none;
- 
 }
 
 @media(max-width:940px){
@@ -237,8 +231,6 @@ a{
         
         font-size: 13;
     }
-
-
 }
 
 .box-item:hover .caption-l{
